@@ -124,7 +124,7 @@ figure{
 .cover{
   float: left;
 }
-p{
+.more p{
   clear: both;
   text-align: center;
   line-height: 4;
