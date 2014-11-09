@@ -1,0 +1,132 @@
+/* Header 
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+
+
+.header{
+  width: 960px;
+  margin: 0 auto;
+}
+h1{
+  float: left;
+}
+.header ul{
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+}
+.header li{
+  float: left;
+  margin-left: 3em;
+}
+.header span{
+  float: right;
+  margin-top: 3em;
+  color: gray;
+}
+
+/* Main 
+手機圖 http://i.imgur.com/DH1JUY1.png
+下陰影 http://i.imgur.com/qHFBqbU.png
+
+標題 40px
+內文 20px
+價錢 24px
+
+按鈕 128x33, #fe8511 -> #dc5608
+*/
+.main{
+  width: 960px;
+  margin: 0 auto;
+  height: 600px;
+  clear: both;
+  position: relative;
+  font-size: 20px;
+  background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+}
+.main .phone{
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+.main div{
+  position: absolute;
+  top: 80px;
+  left: 560px;
+}
+h2{
+  font-size: 40px;
+}
+.main ul{
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.5;
+}
+.price{
+  font-size: 24px;
+}
+button{
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  
+  background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+}
+
+/* More
+SD 卡：http://i.imgur.com/c2Z5au0.png
+電池：http://i.imgur.com/NFwOBqW.png
+耳機：http://i.imgur.com/stm47RT.png
+醜醜手機殼：http://i.imgur.com/aKkhCy6.png
+
+大字：40px
+大字框：70x185
+*/
+.more{
+  width: 860px;
+  margin: 0 auto;
+  clear: both;
+}
+h3{
+  float: left;
+  font-size: 40px;
+  border: 3px #ccc double;
+  padding: 40px 15px;
+  width: 1em;
+  line-height: 1.3;
+  margin: 0;
+  margin-right: 16px;
+}
+.more ul{
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 40px;
+}
+figure{
+  border: 1px #ccc solid;
+  text-align: center;
+  padding: 8px 16px;
+}
+.more ul figure{
+  border-top-width:0;
+}
+.more li:first-child figure{
+  border-top-width:1px;
+  
+}
+.cover{
+  float: left;
+}
+p{
+  clear: both;
+  text-align: center;
+  line-height: 4;
+}
+
